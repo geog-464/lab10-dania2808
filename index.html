@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+	
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>lab9</title>
+        <title>Lab10 DaniaTomasIannarone</title>
         
 		<!--put your external stylesheet links here-->
 		<link rel="stylesheet" href="css/styles.css">
@@ -18,16 +19,27 @@
     <body>
         <!--put your initial page content here-->
 		<div id="div1">
+			<p> Q2 - styleAll is first creating a variable called 'styles' which creates the markers, after in the if statement its saying 'if the geometry type within the argument feature is equal to 'point', then give a specific color, size, opacity to the base markers that were created in the variable 'styles'.</p>
+			<p> Q4 - Feature has the information of each data point, layer is the style of your map elements </p>
+			<p> Q5 - getLatLng() is a method that will return a value and layer.options.fill is boolean you can tell it to fill a path with color by using true or false arguments.</p>
+			<p> Q6 - The radius of the circular markers is bigger and there is no color inside the circle (that was setting layer.option.fill to false did)</p>DANIA TOMAS IANNARONE
 		</div>
 		<div id="mapdiv">
-			
 		</div>
+
+		<select class="li-nav" name="mapdropdown" id="mapdropdown" onChange="loadMap(this.value);">
+			<option value="map0" selected="selected" disabled>Load a map</option>
+			<option value='mapa'>Amtrak Stations</option>
+			<option value='mapb'>Megacities</option>
+		</select>
 		
         <!--you can also use this space for internal scripts; you would place these within <script> tags-->
-
-        
+	
+     
 		
 		<!--put your external script links here-->
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
+
+
